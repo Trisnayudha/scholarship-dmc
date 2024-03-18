@@ -92,7 +92,7 @@ hehehe';
         $sendEmail = new EmailSender();
         $sendEmail->template = 'email.scholarship';
         $sendEmail->subject = 'New Scholarship ' . now();
-        $sendEmail->to = 'annisa@djakarta-miningclub.com';
+        $sendEmail->to = 'secretariat@djakarta-miningclub.com';
         $sendEmail->from = env('EMAIL_SENDER');
         $sendEmail->name_sender = env('EMAIL_NAME');
         $sendEmail->data = array_merge($validated, $fileUrls); // Menggabungkan data yang divalidasi dengan URL file
