@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ScholarshipController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [ScholarshipController::class, 'index']);
+Route::post('/', [ScholarshipController::class, 'store'])->name('scholarship.store');

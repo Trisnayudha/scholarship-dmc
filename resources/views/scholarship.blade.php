@@ -86,7 +86,7 @@
         }
     </style>
     <script src="https://cdn.jsdelivr.net/npm/tinymce@5/tinymce.min.js"></script>
-
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <!-- Custom styles for this template -->
     <link href="{{ asset('new-zoom/form-validation.css') }}" rel="stylesheet">
 </head>
@@ -606,8 +606,9 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="g-recaptcha" data-sitekey="6LdyNmcmAAAAAHD9hhtGDKgiygQR_5Gq_udIDNzv"></div>
 
-                        <button class="w-80 btn btn-primary btn-lg btn-block" type="submit">Apply </button>
+                        <button class="w-80 btn btn-primary btn-lg btn-block mt-2" type="submit">Apply </button>
                     </form>
                 </div>
             </div>
@@ -642,14 +643,14 @@
         tinymce.init({
             selector: 'textarea'
         });
-        @if (session('alert'))
+        @if (session('success'))
             swal({
-                text: "{{ session('alert') }}",
+                text: "{{ session('success') }}",
                 icon: "success",
                 buttons: false,
                 timer: 15000,
             }).then(function() {
-                window.location = "https://membership.djakarta-miningclub.com/visit";
+                window.location = "https://djakarta-miningclub.com";
             });
         @endif
 
@@ -745,7 +746,7 @@
         function checkFileSize(input) {
             if (input.files[0].size > 1024 * 1024) {
                 // Jika ukuran file lebih dari 1 MB, tampilkan pesan kesalahan
-                Swal.fire({
+                swal({
                     icon: 'error',
                     title: 'File terlalu besar',
                     text: 'Ukuran file harus kurang dari 1 MB',
