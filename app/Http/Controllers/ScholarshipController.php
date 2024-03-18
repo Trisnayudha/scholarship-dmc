@@ -80,7 +80,7 @@ class ScholarshipController extends Controller
         $applicant->save();
         // dd($request->all());
         $send = new WhatsappApi();
-        $send->phone = '083829314436';
+        $send->phone = '087722751534';
         $send->message = 'Hai mba ada yg submit scholarship, cek yaaa
 
 hehehe';
