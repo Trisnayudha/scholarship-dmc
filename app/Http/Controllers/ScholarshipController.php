@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Helpers\EmailSender;
 use App\Helpers\WhatsappApi;
 use App\Models\ScholarshipFormModel;
 use Illuminate\Http\Request;
@@ -55,6 +56,8 @@ class ScholarshipController extends Controller
         ]);
 
         // Handle file uploads and save the paths
+        // Menangani pengunggahan file dan menyimpan path
+        $fileUrls = []; // Array untuk menyimpan URL file
         $filePaths = [];
         $applicant = new ScholarshipFormModel();
 
@@ -67,13 +70,14 @@ class ScholarshipController extends Controller
                 $filePath = $request->file($field)->storeAs('public/documents', $fileName); // Simpan file ke dalam direktori penyimpanan dengan nama file yang telah disesuaikan
                 $fileUrl = asset('storage/documents/' . $fileName); // Buat URL penyimpanan file
 
-                // Menyimpan URL dalam atribut yang sesuai di model (misal: $applicant->kta)
-                $applicant->{$field} = $fileUrl;
+
+                // Menyimpan URL dalam array $fileUrls
+                $fileUrls[$field] = $fileUrl;
             }
         }
-
         // Save data to the database
-        $applicant->fill($request->except($fileFields));
+        $applicant->fill($validated);
+        $applicant->fill($fileUrls); // Menambahkan URL file ke data aplikasi
         foreach ($filePaths as $field => $path) {
             $applicant->{$field} = $path;
         }
@@ -85,7 +89,14 @@ class ScholarshipController extends Controller
 
 hehehe';
         $send->WhatsappMessage();
-
+        $sendEmail = new EmailSender();
+        $sendEmail->template = 'email.scholarship';
+        $sendEmail->subject = 'New Scholarship ' . now();
+        $sendEmail->to = 'annisa@djakarta-miningclub.com';
+        $sendEmail->from = env('EMAIL_SENDER');
+        $sendEmail->name_sender = env('EMAIL_NAME');
+        $sendEmail->data = array_merge($validated, $fileUrls); // Menggabungkan data yang divalidasi dengan URL file
+        $sendEmail->sendEmail();
         return redirect()->back()->with('success', 'Data berhasil disimpan!');
     }
 }
