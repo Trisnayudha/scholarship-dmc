@@ -608,7 +608,8 @@
                         </div>
                         <div class="g-recaptcha" data-sitekey="6LdyNmcmAAAAAHD9hhtGDKgiygQR_5Gq_udIDNzv"></div>
 
-                        <button class="w-80 btn btn-primary btn-lg btn-block mt-2" type="submit">Apply </button>
+                        <button class="w-80 btn btn-primary btn-lg btn-block mt-2" type="submit" disabled>Apply
+                        </button>
                     </form>
                 </div>
             </div>
