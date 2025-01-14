@@ -105,90 +105,64 @@
 
                     <span style="font-size: 14px; margin-bottom: 0;">
                         <p>
-                            Indonesia Mining Clubs (IMC) Academia Scholarship
-                            merupakan bantuan pendidikan dari Djakarta Mining Club dan Coal Club Indonesia kepada
-                            mahasiswa
-                            yang berprestasi dibidang akademik tetapi memiliki keterbatasan biaya untuk meneruskan
-                            pendidikan.
-
-                            Beasiswa ini merupakan komitmen DMC dan CCI dalam rangka mendukung putra putri generasi
-                            bangsa
-                            dengan memberikan kesempatan untuk mereka dalam mengembangkan pengetahuan dan prestasi
-                            mereka
-                            yang kelak akan akan berguna dalam membantu perkembangan industri pertambangan di Indonesia.
+                            Indonesia Mining Clubs (IMC) Academia Scholarship merupakan bantuan pendidikan yang
+                            diberikan oleh
+                            Djakarta Mining Club bagi mahasiswa berprestasi dalam bidang akademik yang terkendala oleh
+                            keterbatasan finansial. Program ini merupakan komitmen Djakarta Mining Club untuk mendukung
+                            Putra
+                            Putri generasi bangsa, memberikan mereka kesempatan untuk mengembangkan pengetahuan dan
+                            potensi yang kelak dapat berkontribusi pada kemajuan industri pertambangan di Indonesia.
                         </p>
 
-                        <p>Adapun persyaratan dan prosedur pengajuan beasiswa sebagai berikut: </p>
+                        <p><b>Kriteria dan Persyaratan</b></p>
+                        <p>Beasiswa ini terbuka untuk:</p>
                         <p>
-                            Indonesia Mining Clubs (IMC) Academia Scholarship menawarkan beasiswa kepada mahasiswa tahun
-                            kedua / ketiga / keempat program studi metalurgi dan program studi teknik pertambangan dari
-                            Universitas Indonesia dan Institut Teknologi Bandung. Aplikasi beasiswa harus mencakup
-                            sebagai berikut:
+                            1. Mahasiswa program studi Metalurgi dan Teknik Pertambangan tahun kedua, ketiga, atau
+                            keempat dari Universitas Indonesia dan Institut Teknologi Bandung.
                         </p>
+                        <p> 2. Memiliki IPK minimum 3.00 (skala 4.00) yang dibuktikan dengan transkrip nilai yang
+                            dilegalisir.</p>
                         <p>
-                            <b>Kriteria dan Persyaratan: </b>
+                            3. Berasal dari keluarga dengan keterbatasan finansial.
                         </p>
-                        <p>
-                            1. Terdaftar sebagai mahasiswa dari salah satu Universitas yang dimaksud diatas,
-                        </p>
-                        <p>
-
-                            2. Nilai IPK minimum 3.00 (skala 4.00) yang disertai dengan transkrip yang dilegalisir,
-                        </p>
-                        <p>
-
-                            3. Mengalami kesulitan dalam finansial,
-                        </p>
-                        <p>
-
-                            4. Menyerahkan berkas-berkas sebagai berikut:
-                        </p>
-                        Mengisi formulir registrasi online yang telah disediakan
+                        <p>4. Melengkapi dokumen berikut:</p>
                         <ul>
                             <li>
-                                Fotokopi Kartu Tanda Mahasiswa (KTM)
+                                Formulir registrasi online.
                             </li>
                             <li>
-                                Fotokopi Kartu Tanda Penduduk (KTP)
+                                Fotokopi Kartu Tanda Mahasiswa (KTM).
                             </li>
                             <li>
-                                Fotokopi Kartu Keluarga
+                                Fotokopi Kartu Tanda Penduduk (KTP).
                             </li>
                             <li>
-                                Slip Gaji Orang Tua Terakhir
+                                Fotokopi Kartu Keluarga.
                             </li>
                             <li>
-                                Transkrip Pembayaran BOP
+                                Slip gaji terakhir orang tua.
                             </li>
                             <li>
-                                Fotokopi Sertifikat Prestasi di Bidang Akademik
+                                Bukti pembayaran BOP.
+                            </li>
+                            <li>
+                                Fotokopi sertifikat prestasi di bidang akademik (jika ada).
                             </li>
                         </ul>
+                        <p><i>(Catatan: Maksimal ukuran file yang diunggah adalah 1 MB.)</i></p>
 
-                        <p> <b>Prosedur Pengajuan </b></p>
-                        <p>
-                            1. Peserta mengajukan surat permohonan kepada Sekretariat Djakarta Mining Club dan Coal Club
-                            Indonesia dengan mengisi formulir online yang telah disediakan beserta mengunduh persyaratan
-                            yang telah ditentukan,
+                        <p><b>Prosedur Pengajuan Beasiswa</b></p>
+                        <p>1. Peserta mengajukan surat permohonan kepada Sekretariat Djakarta Mining Club dengan mengisi
+                            formulir online yang telah disediakan beserta mengunduh persyaratan yang telah ditentukan.
                         </p>
-                        <p>
-                            2. Sekretariat Djakarta Mining Club dan Coal Club Indonesia akan melakukan seleksi dan
-                            mengecek
-                            kebenaran persyaratan yang disampaikan,
-                        </p>
+                        <p>2. Sekretariat Djakarta Mining Club akan melakukan seleksi administrasi dan memverifikasi
+                            dokumen yang dikirimkan.</p>
 
-                        <p>
-                            3. Sekretariat Djakarta Mining Club dan Coal Club Indonesia akan menghubungi peserta untuk
-                            seleksi lebih lanjut.
-                        </p>
-                        <p>
-                            4. Dikumpulkan paling lambat pada tanggal 28 Maret 2024.
-                        </p>
+                        <p>3. Sekretariat Djakarta Mining Club akan menghubungi peserta untuk seleksi lebih lanjut.</p>
+                        <p>4. <b>Batas akhir pengajuan: 28 Februari 2025</b></p>
 
-                        <p>
-                            Untuk informasi lebih lanjut silahkan menghubungi
-                        </p>
-
+                        <p><b>Kontak Informasi</b></p>
+                        <p>Untuk pertanyaan dan informasi lebih lanjut, hubungi:</p>
                         <p>
                             Email : <a href="mailto:secretariat@djakarta-miningclub.com">
                                 secretariat@djakarta-miningclub.com</a> atau <a
@@ -196,10 +170,6 @@
                         </p>
                         <p>
                             Telephone : 0811 1937 300
-                        </p>
-
-                        <p>
-                            *Max file size 1Mb
                         </p>
                     </span>
 
