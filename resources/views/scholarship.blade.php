@@ -165,8 +165,7 @@
                         <p>Untuk pertanyaan dan informasi lebih lanjut, hubungi:</p>
                         <p>
                             Email : <a href="mailto:secretariat@djakarta-miningclub.com">
-                                secretariat@djakarta-miningclub.com</a> atau <a
-                                href="mailto:secretariat@coalclubindonesia.com">secretariat@coalclubindonesia.com</a>
+                                secretariat@djakarta-miningclub.com</a>
                         </p>
                         <p>
                             Telephone : 0811 1937 300
@@ -578,7 +577,7 @@
                         </div>
                         <div class="g-recaptcha" data-sitekey="6LdyNmcmAAAAAHD9hhtGDKgiygQR_5Gq_udIDNzv"></div>
 
-                        <button class="w-80 btn btn-primary btn-lg btn-block mt-2" type="submit" disabled>Apply
+                        <button class="w-80 btn btn-primary btn-lg btn-block mt-2" type="submit">Apply
                         </button>
                     </form>
                 </div>
