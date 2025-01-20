@@ -97,7 +97,7 @@
         <main>
             <div class="py-2 text-center">
                 <img style="border: none; width:400px" src="{{ asset('image/dmc.png') }}" alt="">
-                <h2 style="text-transform: uppercase">Indonesia Mining Clubs (IMC) Academia Scholarship</h2>
+                <h2 style="text-transform: uppercase">IMC Academia Scholarship 2025 - Application Form</h2>
             </div>
             <hr class="my-1">
             <div class="row g-1">
@@ -117,8 +117,8 @@
                         <p><b>Kriteria dan Persyaratan</b></p>
                         <p>Beasiswa ini terbuka untuk:</p>
                         <p>
-                            1. Mahasiswa program studi Metalurgi dan Teknik Pertambangan tahun kedua, ketiga, atau
-                            keempat dari Universitas Indonesia dan Institut Teknologi Bandung.
+                            1. Mahasiswa program studi Metalurgi dan Teknik Pertambangan tahun ketiga dan keempat dari
+                            Universitas Indonesia dan Institut Teknologi Bandung.
                         </p>
                         <p> 2. Memiliki IPK minimum 3.00 (skala 4.00) yang dibuktikan dengan transkrip nilai yang
                             dilegalisir.</p>
