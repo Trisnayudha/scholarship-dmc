@@ -117,8 +117,8 @@
                         <p><b>Kriteria dan Persyaratan</b></p>
                         <p>Beasiswa ini terbuka untuk:</p>
                         <p>
-                            1. Mahasiswa program studi Metalurgi dan Teknik Pertambangan tahun ketiga dan keempat dari
-                            Universitas Indonesia, Institut Teknologi Bandung dan Universitas Hasanuddin.
+                            1. Mahasiswa program studi Metalurgi dan Teknik Pertambangan tahun ketiga dan keempat dari Universitas Indonesia, Institut Teknologi Bandung, Universitas Hasanuddin dan Universitas Sulawesi Tenggara (Unsultra).
+
                         </p>
                         <p> 2. Memiliki IPK minimum 3.00 (skala 4.00) yang dibuktikan dengan transkrip nilai yang
                             dilegalisir.</p>
